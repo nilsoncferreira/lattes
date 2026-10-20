@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel Lattes – Nilson Clementino Ferreira</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#101319">
+<meta name="description" content="Painel interativo do currículo Lattes de Nilson Clementino Ferreira (UFG): produção, orientações, bancas, projetos, trajetória e mapa.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d4e89'/%3E%3Cpath d='M8 22V10m5 12V14m5 8V8m5 14v-6' stroke='%23fff' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css?v=20261019">
+<script>var t='dark';try{t=localStorage.getItem('lattes-theme')||'dark'}catch(e){}document.documentElement.dataset.theme=t;</script>
+</head>
+<body>
+<noscript><p style="padding:24px;font-family:sans-serif">Este painel precisa de JavaScript para funcionar.</p></noscript>
+<a class="skip" href="#main">Ir para o conteúdo</a>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#visao" aria-label="Início">
+      <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M8 22V10m5 12V14m5 8V8m5 14v-6" stroke="var(--bg)" stroke-width="3" stroke-linecap="round" fill="none"/></svg>
+      <span><b>Painel Lattes</b><small>Nilson Clementino Ferreira · UFG</small></span>
+    </a>
+    <nav class="tabs" aria-label="Seções" role="tablist">
+      <button role="tab" data-view="visao" aria-selected="true">Visão geral</button>
+      <button role="tab" data-view="producao" aria-selected="false">Produção</button>
+      <button role="tab" data-view="orientacoes" aria-selected="false">Orientações e bancas</button>
+      <button role="tab" data-view="trajetoria" aria-selected="false">Trajetória</button>
+      <button role="tab" data-view="projetos" aria-selected="false">Projetos</button>
+      <button role="tab" data-view="mapa" aria-selected="false">Mapa</button>
+    </nav>
+    <button class="icon-btn" id="theme" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main">
+  <section id="v-visao" class="view" aria-label="Visão geral"></section>
+  <section id="v-producao" class="view" hidden aria-label="Produção"></section>
+  <section id="v-orientacoes" class="view" hidden aria-label="Orientações e bancas"></section>
+  <section id="v-trajetoria" class="view" hidden aria-label="Trajetória"></section>
+  <section id="v-projetos" class="view" hidden aria-label="Projetos"></section>
+  <section id="v-mapa" class="view" hidden aria-label="Mapa"></section>
+</main>
+<footer class="foot">Dados extraídos do currículo Lattes em PDF (gerado em 18/10/2026; última atualização do currículo em 08/09/2026). <a href="http://lattes.cnpq.br/6466969611652630" target="_blank" rel="noopener">Currículo original</a> · Mapas: © colaboradores do OpenStreetMap, Esri, OpenTopoMap.</footer>
+<div id="tip" class="tip" role="status" hidden></div>
+<script defer src="assets/vendor/d3.min.js"></script>
+<script defer src="assets/js/data.js?v=20261019"></script>
+<script defer src="assets/js/core.js?v=20261019"></script>
+<script defer src="assets/js/charts.js?v=20261019"></script>
+<script defer src="assets/js/views.js?v=20261019"></script>
+<script defer src="assets/js/map.js?v=20261019"></script>
+<script defer src="assets/js/boot.js?v=20261019"></script>
+</body>
+</html>
